@@ -1,6 +1,6 @@
 <?php include "menu.php";?>
-<h1>GetEsimerkki</h1>
-<form action="getesim.php" method="get">
+<h1>PostEsimerkki</h1>
+<form action="postesim.php" method="post">
   <table>
     <tr>
   <td><label for="en">Etunimi</label></td>
@@ -14,9 +14,9 @@
   <input type="submit" name="btnSend" value="Submit">
 </form>
 <?php
-if(isset($_GET["btnSend"])){
-  $etunimi = $_GET["en"];
-  $sukunimi = $_GET["sn"];
+if(isset($_POST["btnSend"])){
+  $etunimi = $_POST["en"];
+  $sukunimi = $_POST["sn"];
 
   echo 'Hello '.$etunimi.' '.$sukunimi;
 }
