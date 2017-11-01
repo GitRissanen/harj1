@@ -12,6 +12,7 @@
       <li><a href="eka.php">ArrayEsimerkki</a></li>
       <li><a href="getesim.php">GetEsimerkki</a></li>
       <li><a href="postesim.php">PostEsimerkki</a></li>
+      <li><a href="luokkaesim.php">PHPLuokkaEsimerkki</a></li>
     </ul>
   </div>
   <div id="content">
