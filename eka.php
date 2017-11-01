@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>TestiSivu</title>
-  </head>
-  <body>
+    <?php include "menu.php"; ?>
     <h1>Assosiatiivinen array</h1>
     <?php
     $nimet = array(array("Etunimi"=>'Ville',"Sukunimi"=>'Virta'),
@@ -26,5 +20,4 @@
       ?>
 
     </table>
-  </body>
-</html>
+<?php include "footer.php"; ?>
