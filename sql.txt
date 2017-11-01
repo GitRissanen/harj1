@@ -1,0 +1,11 @@
+CREATE DATABASE har1;
+USE har1;
+CREATE TABLE opiskelija(
+idOpiskelija INT AUTO_INCREMENT PRIMARY KEY,
+etunimi VARCHAR(50),
+sukunimi VARCHAR(50),
+syntymavuosi SMALLINT
+);
+
+INSERT INTO opiskelija(etunimi,sukunimi,syntymavuosi) VALUES('Ville','Virta',1991);
+INSERT INTO opiskelija(etunimi,sukunimi,syntymavuosi) VALUES('Liisa','Virta',1991);
