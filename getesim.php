@@ -11,7 +11,7 @@
   <td><input name="sn" id="sn" type="text"></td>
     </tr>
   </table>
-  <input type="submit" name="btnSend" value="Submit">
+  <input class="btn btn-primary" type="submit" name="btnSend" value="Submit">
 </form>
 <?php
 if(isset($_GET["btnSend"])){
